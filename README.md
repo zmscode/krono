@@ -14,13 +14,13 @@ A blazingly fast, lightweight, and timezone-aware date/time library for JavaScri
 ## Installation
 
 ```bash
-npm install krono
+npm install kronolib
 ```
 
 ## Usage
 
 ```typescript
-import krono, { now, today, tomorrow, yesterday, tz, utc, local } from "krono";
+import krono, { now, today, tomorrow, yesterday, tz, utc, local } from "kronolib";
 
 // Create a Krono instance for now
 const k = krono();
